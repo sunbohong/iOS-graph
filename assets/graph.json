@@ -1,106 +1,39 @@
 {
-    "name": "Graph",
+    "name": "iOS",
     "children": [
         {
-            "name": "Classification",
+            "name": "断点",
             "children": [
                 {
-                    "name": "Logistic regression"
+                    "name": "Xcode如何添加断点？"
                 },
                 {
-                    "name": "Linear discriminant analysis"
-                },
-                {
-                    "name": "Rules"
-                },
-                {
-                    "name": "Decision trees"
-                },
-                {
-                    "name": "Naive Bayes"
-                },
-                {
-                    "name": "K nearest neighbor"
-                },
-                {
-                    "name": "Probabilistic neural network"
-                },
-                {
-                    "name": "Support vector machine"
-                }
+                    "name": "断点的作用？"
+                },             
             ]
         },
         {
-            "name": "Consensus",
+            "name": "编译",
             "children": [
                 {
-                    "name": "Models diversity",
+                    "name": "编译的几个phase",
                     "children": [
                         {
-                            "name": "Different initializations"
-                        },
-                        {
-                            "name": "Different parameter choices"
-                        },
-                        {
-                            "name": "Different architectures"
-                        },
-                        {
-                            "name": "Different modeling methods"
-                        },
-                        {
-                            "name": "Different training sets"
-                        },
-                        {
-                            "name": "Different feature sets"
-                        }
+                            "name": "预处理"
+                        },               
                     ]
-                },
-                {
-                    "name": "Methods",
-                    "children": [
-                        {
-                            "name": "Classifier selection"
-                        },
-                        {
-                            "name": "Classifier fusion"
-                        }
-                    ]
-                },
-                {
-                    "name": "Common",
-                    "children": [
-                        {
-                            "name": "Bagging"
-                        },
-                        {
-                            "name": "Boosting"
-                        },
-                        {
-                            "name": "AdaBoost"
-                        }
-                    ]
-                }
+                },              
             ]
         },
         {
-            "name": "Regression",
+            "name": "内存管理",
             "children": [
                 {
-                    "name": "Multiple linear regression"
+                    "name": "内存如何布局"
                 },
                 {
-                    "name": "Partial least squares"
-                },
-                {
-                    "name": "Multi-layer feedforward neural network"
-                },
-                {
-                    "name": "General regression neural network"
-                },
-                {
-                    "name": "Support vector regression"
-                }
+                    "name": "内存管理修饰符"
+                },              
             ]
         }
     ]
